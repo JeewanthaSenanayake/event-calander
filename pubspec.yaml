@@ -98,7 +98,7 @@ flutter:
 flutter_native_splash:
   color: "#ffffff"  # Background color for your splash screen.
   image: assets/splash.png  # Path to your splash screen image.
-  android: true  # Enable splash screen for Android.
-  ios: true  # Enable splash screen for iOS.
-  web: true  # Enable splash screen for Web (if needed).
+  android: true  
+  ios: true  
+  web: true  
 

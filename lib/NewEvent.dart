@@ -53,7 +53,7 @@ class _State extends State<new_event> {
             Align(
               alignment: Alignment.topCenter,
               child: Text(
-                formatDate(date, [yyyy, '-', mm, '-', dd]),
+                formatDate(date, [dd, '/', mm, '/', yyyy]),
                 style:
                     const TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
               ),
