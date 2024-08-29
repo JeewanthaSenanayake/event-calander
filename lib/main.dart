@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       home: events_with_calander(),
+      debugShowCheckedModeBanner: false, // remove debug banner
     );
   }
 }

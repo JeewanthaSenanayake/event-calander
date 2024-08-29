@@ -30,11 +30,13 @@ class _events_with_calanderState extends State<events_with_calander> {
     super.dispose();
   }
 
+  // all events data
   List<Map> _getEventsForDay(DateTime day) {
     print(data);
     return data[day] ?? [];
   }
 
+  // select day
   void _onDaySelected(DateTime selectedDay, DateTime focusedDay) {
     if (!isSameDay(_selectedDay, selectedDay)) {
       setState(() {
@@ -136,7 +138,7 @@ class _events_with_calanderState extends State<events_with_calander> {
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => new_event(date: _selectedDay!)));
-                  // initState();
+                  
                 },
               ),
             ),
