@@ -1,3 +1,6 @@
+# Developer Details
+Name : Jeewantha Senanayake
+Time taken : 2h 30min
 # calendar
 
 A new Flutter project.
